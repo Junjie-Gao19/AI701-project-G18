@@ -17,8 +17,9 @@ To run the code,run
 ```
 python main.py --target-model[TARGET MODEL] --exp_name[EXPERIMENT NAME] --DEFENSE[DEFENSE TYPE]
 ```
-You can read the code to get the default.SO you can run
+You can read the code to get the default Init.If you don't want to choose the paramaters,you can run
 ```
 python main.py
 ```
 If you want run the close source models you should add your own model path in the `config.py`. 
+The results will appear in the `results`,we have put some results in it.
